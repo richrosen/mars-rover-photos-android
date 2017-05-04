@@ -23,15 +23,15 @@ The feed provides two forms of feed data:
 ## Application Flow
 
 * The app starts out on the main screen which allows users to choose which Rover they want to work with.  
-![shot1](images/mars_rover_app_main_screen.png =150x)
+![shot1](images/mars_rover_app_main_screen.png)
 * Once a Rover is selected, the bottom half of the screen displays a NumberPicker for choosing how many sols ago the user wishes to see photos from.  
-![shot2](images/mars_rover_app_main_screen_rover_selected.png =150x)
+![shot2](images/mars_rover_app_main_screen_rover_selected.png)
 * On the right hand side, a number is displayed showing how many photos exist for each sol, so you can avoid choosing sols with few or no photos.
 * The app derives which actual sol is to be queried by subtracting the user's choice in the NumberPicker from the `maxSol` value associated with the Rover. (e.g., if `maxSol` is 1000, and the user selected 7, the app would request photos taken on sol 993)
 * Tapping the **View Photos** button takes the app to a new activity that displays a list of thumbnails for the available images.  
-![shot3](images/mars_rover_app_photos_rover_sol_1684.png =150x)
+![shot3](images/mars_rover_app_photos_rover_sol_1684.png)
 * Tapping on a thumbnail entry opens up a view that shows the full size image with a caption containing additional metadata associated with the photo.  
-![shot4](images/mars_rover_app_photo_single.png =150x)
+![shot4](images/mars_rover_app_photo_single.png)
 * Tapping anywhere on the screen removes the full size image and returns to presentation of the photo list. 
 
 *****
@@ -58,7 +58,7 @@ Caching the fetched data for offline usage is accomplished using custom caching 
 
 ## Screenshots
 
-![shot1](images/mars_rover_app_main_screen.png =200x)
-![shot2](images/mars_rover_app_main_screen_rover_selected.png =200x)
-![shot3](images/mars_rover_app_photos_rover_sol_1684.png =200x)
-![shot4](images/mars_rover_app_photo_single.png =200x)
+![shot1](images/mars_rover_app_main_screen.png)
+![shot2](images/mars_rover_app_main_screen_rover_selected.png)
+![shot3](images/mars_rover_app_photos_rover_sol_1684.png)
+![shot4](images/mars_rover_app_photo_single.png)
