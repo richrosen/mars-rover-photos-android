@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mars Rover Photos</string>
+    <string name="manifest_retrieval_failure">Could not retrieve photo list for rover: </string>
+    <string name="photo_retrieval_failure">Could not retrieve photos: </string>
+    <string name="all_photos">All Photos</string>
+    <string name="error">Error</string>
+    <string name="close">Close</string>
+    <string name="choose_rover_title">Which Rover?</string>
+    <string name="choose_one">Choose one…</string>
+    <string name="sols_ago_num_photos">How Many Sols Ago? [Photo Count]</string>
+    <string name="view_photos">View Photos</string>
+    <string name="cache_failure_rover_manifest_bad_response_code">Failed to get rover manifest from cache (response code %d)</string>
+    <string name="cache_failure_rover_manifest">Failed to get rover manifest from cache</string>
+    <string name="cache_failure_photo_list_bad_response_code">Failed to get photo list from cache (response code %d)</string>
+    <string name="cache_failure_photo_list">Failed to get photo list from cache</string>
+</resources>
