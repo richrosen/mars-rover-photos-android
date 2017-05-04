@@ -91,8 +91,6 @@ public class SampleApplication extends Application {
     }
 
     public boolean isNetworkConnected() {
-//        NetworkInfo network = connectivityManager.getActiveNetworkInfo();
-//        return (network != null && network.isConnected());
         return true;
     }
 }
